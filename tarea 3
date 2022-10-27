@@ -1,0 +1,14 @@
+
+function coche(puertas){
+   this.puertas = puertas;
+   }
+
+   function masPuertas(coche){
+coche.puertas += 1;     
+return console.log("El coche tiene " + coche.puertas + " puertas");
+}
+
+function miCoche(){
+return onsole.log(coche.masPuertas);
+}
+miCoche(); 
